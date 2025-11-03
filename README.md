@@ -16,9 +16,9 @@ This template was designed for the [ATDD Accelerator Program](https://atdd-accel
 
 ## License
 
-[![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/cc0/1.0/)
+[![Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](http://unlicense.org/)
 
-This project is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) - Public Domain Dedication.
+This project is released under [The Unlicense](http://unlicense.org) — a public domain dedication.
 
 ## Contributors
 
