@@ -29,6 +29,9 @@ A simple greeter application with tests across multiple languages.
    - In the README file, so that the status badges point to your workflows (not the template workflows)
    - In `system-test/docker-compose.yml`, to reference your Docker Image (not the template image)
 6. In the Docker Compose file, ensure that everything is lowercase in the image url.
+7. Commit and push.
+8. Manually trigger `commit-stage-monolith` and wait for it to finish successfully.
+9. Manually trigger `acceptance-stage` and wait for it to finish successfully.
 
 ## Customization
 
