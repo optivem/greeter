@@ -48,3 +48,10 @@ Commit and push.
 Manually trigger `acceptance-stage` (with the "Force run" option).
 
 Verify that it is successful.
+
+## Checklist
+
+1. Acceptance Stage finds latest artifacts from each component's repository
+2. Docker Compose references correct cross-repository image URLs
+3. Cross-repository RC tagging works with `DOCKER_REGISTRY_TOKEN`
+4. `acceptance-stage` workflow completes successfully

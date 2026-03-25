@@ -15,3 +15,10 @@ Manually trigger `acceptance-stage` (with the "Force run" option).
 Verify that it is successful.
 
 Note the RC version.
+
+## Checklist
+
+1. Acceptance Stage finds latest artifacts for all components
+2. All component artifacts deployed together
+3. System RC version tags applied to all component artifacts
+4. `acceptance-stage` workflow completes successfully
