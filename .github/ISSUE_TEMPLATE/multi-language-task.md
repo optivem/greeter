@@ -7,6 +7,6 @@ assignees: "valentinajemuovic"
 type: issue
 ---
 
-- [ ] Java (https://github.com/optivem/atdd-accelerator-template-java)
-- [ ] .NET (https://github.com/optivem/atdd-accelerator-template-dotnet)
-- [ ] TypeScript (https://github.com/optivem/atdd-accelerator-template-typescript)
+- [ ] Java (https://github.com/optivem/greeter-java)
+- [ ] .NET (https://github.com/optivem/greeter-dotnet)
+- [ ] TypeScript (https://github.com/optivem/greeter-typescript)

@@ -1,18 +1,18 @@
-# ATDD Accelerator Template
+# Greeter
 
-This template was designed for the [ATDD Accelerator Program](https://atdd-accelerator.optivem.com/).
+A simple greeter application with tests across multiple languages.
 
 ## Starter Templates
 
-- [ATDD Accelerator Template - Java](https://github.com/optivem/atdd-accelerator-template-java)
-- [ATDD Accelerator Template - .NET](https://github.com/optivem/atdd-accelerator-template-dotnet)
-- [ATDD Accelerator Template - TypeScript](https://github.com/optivem/atdd-accelerator-template-typescript)
+- [Greeter - Java](https://github.com/optivem/greeter-java)
+- [Greeter - .NET](https://github.com/optivem/greeter-dotnet)
+- [Greeter - TypeScript](https://github.com/optivem/greeter-typescript)
 
 ## Customized Templates
 
-- [ATDD Accelerator Template - Multi Language](https://github.com/optivem/atdd-accelerator-template-multi-lang)
-- [ATDD Accelerator Template - Multi Component](https://github.com/optivem/atdd-accelerator-template-multi-comp)
-- [ATDD Accelerator Template - Multi Repository](https://github.com/optivem/atdd-accelerator-template-multi-repo)
+- [Greeter - Multi Language](https://github.com/optivem/greeter-multi-lang)
+- [Greeter - Multi Component](https://github.com/optivem/greeter-multi-comp)
+- [Greeter - Multi Repository](https://github.com/optivem/greeter-multi-repo)
 
 ## License
 
