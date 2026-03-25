@@ -100,6 +100,8 @@ A simple greeter application with tests across multiple languages.
 - [Commit Stage](docs/commit-stage.md)
 - [Commit Stage - Multi Component](docs/commit-stage-multi-component.md)
 - [Commit Stage - Multi Repo](docs/commit-stage-multi-repo.md)
+- [Acceptance Stage](docs/acceptance-stage.md)
+- [Acceptance Stage - Multi Component](docs/acceptance-stage-multi-component.md)
 - [Acceptance Stage - Multi Repo](docs/acceptance-stage-multi-repo.md)
 
 ## License
