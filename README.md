@@ -86,6 +86,15 @@ A simple greeter application with tests across multiple languages.
 3. Commit and push.
 4. Verify that `commit-stage-monolith` and `acceptance-stage` workflows still pass.
 
+## Checklist
+
+1. Template has been applied to your repository
+2. All references to the template repository name have been replaced with your own
+3. Namespace customization is complete
+4. Root README file contains correct links to GitHub Actions
+5. Docker Compose file (in System Test) has the correct monolith image url
+6. `commit-stage-monolith` and `acceptance-stage` workflows pass
+
 ## License
 
 [![Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](http://unlicense.org/)
