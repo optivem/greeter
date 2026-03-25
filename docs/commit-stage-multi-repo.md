@@ -2,24 +2,7 @@
 
 For a working example, see the [Greeter Multi Repo](https://github.com/optivem/greeter-multi-repo) template.
 
-## 1. Create Token
-
-1. In the top-right corner of any GitHub page, click your profile photo → **Settings**.
-2. Go to **Developer Settings** → **Personal access tokens** → **Tokens (classic)**.
-3. Click **Generate new token** → **Generate new token (classic)**.
-4. In Note, write: `DOCKER_REGISTRY_TOKEN`
-5. Under Select scopes, tick: `write:packages`, `read:packages`.
-6. Click **Generate token**.
-7. Copy the token value — you won't see it again.
-
-Add the PAT as a system repository secret:
-
-1. In your system repository, go to **Settings** → **Secrets and variables** → **Actions**.
-2. Click **New repository secret**:
-   - Name: `DOCKER_REGISTRY_TOKEN`
-   - Secret: paste the token value.
-
-## 2. Separate Frontend
+## 1. Separate Frontend
 
 Create a new frontend repository (e.g. `eshop-frontend`).
 
@@ -32,7 +15,7 @@ Create a new frontend repository (e.g. `eshop-frontend`).
 7. Delete the frontend package from the system repository (Packages → click the package → Package settings → Delete).
 8. Copy the frontend Commit Stage badge from the frontend repository back into the system repository README for a consolidated view.
 
-## 3. Separate Backend
+## 2. Separate Backend
 
 Repeat the same process for the backend.
 
