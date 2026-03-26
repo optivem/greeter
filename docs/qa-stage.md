@@ -16,13 +16,13 @@ After deployment, the QA Engineer does manual testing (exploratory testing, usab
 
 1. Go to **Actions**, click on `qa-signoff`, then **Run workflow**.
 2. Enter the same version (e.g. `v0.0.1-rc`).
-3. Set the QA result to `success`.
+3. Set the QA result to `approved`.
 4. Click **Run workflow** and wait for completion. If it fails, stop and ask for support.
-5. Go to **Releases**. You should see a prerelease with the suffix `-rc-qa-success`.
+5. Go to **Releases**. You should see a prerelease with the suffix `-rc-qa-approved`.
 
 ## Checklist
 
 1. `qa-stage` workflow completes successfully
 2. Release is marked as QA deployed (e.g. `-rc-qa-deployed`)
 3. `qa-signoff` workflow completes successfully
-4. Release is marked as QA success (e.g. `-rc-qa-success`)
+4. Release is marked as QA approved (e.g. `-rc-qa-approved`)
