@@ -21,5 +21,6 @@
       "mcp__github__issue_read"
     ],
     "defaultMode": "bypassPermissions"
-  }
+  },
+  "skipDangerousModePermissionPrompt": true
 }
