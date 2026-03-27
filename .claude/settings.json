@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Agent(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Grep(*)",
+      "Glob(*)",
+      "NotebookEdit(*)",
+      "TodoWrite(*)",
+      "Skill(*)",
+      "mcp__github__search_code",
+      "mcp__github__get_file_contents",
+      "mcp__github__search_issues",
+      "mcp__github__add_issue_comment",
+      "mcp__github__issue_write",
+      "mcp__github__issue_read"
+    ],
+    "defaultMode": "bypassPermissions"
+  }
+}
