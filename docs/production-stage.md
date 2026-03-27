@@ -2,6 +2,17 @@
 
 For a working example, see the [Greeter](https://github.com/optivem/greeter) template.
 
+## Setup
+
+Create the `production` environment and set the `SYSTEM_URL` variable:
+
+```bash
+gh api repos/<your_repo_owner>/<your_repo_name>/environments/production --method PUT
+gh variable set SYSTEM_URL --env production --body "http://localhost:8080/"
+```
+
+*Replace the URL with your actual production environment URL when deploying for real.*
+
 ## Verify the Production Stage
 
 1. Go to **Actions** on GitHub.
@@ -13,6 +24,7 @@ For a working example, see the [Greeter](https://github.com/optivem/greeter) tem
 
 ## Checklist
 
-1. `prod-stage` workflow completes successfully
-2. Release is tagged and marked as Latest in GitHub Releases
-3. Monolith Package has final version tag (e.g. `-rc` suffix removed)
+1. GitHub Environment `production` is created with `SYSTEM_URL` variable set
+2. `prod-stage` workflow completes successfully
+3. Release is tagged and marked as Latest in GitHub Releases
+4. Monolith Package has final version tag (e.g. `-rc` suffix removed)

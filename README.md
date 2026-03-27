@@ -31,7 +31,7 @@ A simple greeter application with tests across multiple languages.
 6. In the Docker Compose file, ensure that everything is lowercase in the image url.
 7. Commit and push.
 8. Manually trigger `commit-stage-monolith` and wait for it to finish successfully.
-9. Manually trigger `acceptance-stage` and wait for it to finish successfully.
+9. Follow the [Acceptance Stage](docs/acceptance-stage.md) setup and verification steps.
 
 ## Customization
 

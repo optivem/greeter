@@ -2,6 +2,17 @@
 
 For a working example, see the [Greeter](https://github.com/optivem/greeter) template.
 
+## Setup
+
+Create the `qa` environment and set the `SYSTEM_URL` variable:
+
+```bash
+gh api repos/<your_repo_owner>/<your_repo_name>/environments/qa --method PUT
+gh variable set SYSTEM_URL --env qa --body "http://localhost:8080/"
+```
+
+*Replace the URL with your actual QA environment URL when deploying for real.*
+
 ## Verify the QA Stage
 
 1. Go to **Actions** on GitHub.
@@ -22,7 +33,8 @@ After deployment, the QA Engineer does manual testing (exploratory testing, usab
 
 ## Checklist
 
-1. `qa-stage` workflow completes successfully
-2. Release is marked as QA deployed (e.g. `-rc-qa-deployed`)
-3. `qa-signoff` workflow completes successfully
-4. Release is marked as QA approved (e.g. `-rc-qa-approved`)
+1. GitHub Environment `qa` is created with `SYSTEM_URL` variable set
+2. `qa-stage` workflow completes successfully
+3. Release is marked as QA deployed (e.g. `-rc-qa-deployed`)
+4. `qa-signoff` workflow completes successfully
+5. Release is marked as QA approved (e.g. `-rc-qa-approved`)

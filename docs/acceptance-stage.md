@@ -2,6 +2,17 @@
 
 For a working example, see the [Greeter](https://github.com/optivem/greeter) template.
 
+## Setup
+
+Create the `acceptance` environment and set the `SYSTEM_URL` variable:
+
+```bash
+gh api repos/<your_repo_owner>/<your_repo_name>/environments/acceptance --method PUT
+gh variable set SYSTEM_URL --env acceptance --body "http://localhost:8080/"
+```
+
+*Replace the URL with your actual acceptance environment URL when deploying for real.*
+
 ## Verify the Acceptance Stage
 
 1. Go to **Actions** on GitHub.
@@ -18,6 +29,7 @@ For a working example, see the [Greeter](https://github.com/optivem/greeter) tem
 
 ## Checklist
 
-1. `acceptance-stage` workflow completes successfully
-2. RC version is created (e.g. `v0.0.1-rc`) in GitHub Releases
-3. Docker image is tagged with the RC version in Packages
+1. GitHub Environment `acceptance` is created with `SYSTEM_URL` variable set
+2. `acceptance-stage` workflow completes successfully
+3. RC version is created (e.g. `v0.0.1-rc`) in GitHub Releases
+4. Docker image is tagged with the RC version in Packages
